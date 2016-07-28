@@ -7,6 +7,8 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
+import lab.aikibo.entity.Sppt;
+
 @Path("/sppt/{nop}/{thn}")
 public class SpptResource {
   @GET
